@@ -3,9 +3,9 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monoton">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Permanent+Marker">
 <style>
-body,h1 {font-family: "Monoton", sans-serif}
+body,h1 {font-family: "Permanent Marker", sans-serif}
 body, html {height: 100%}
 .bgimg {
   background-image: url('RecordStore1.jpg');
@@ -14,17 +14,29 @@ body, html {height: 100%}
   background-size: cover;
 }
 
-#roundedCorners{
-border-radius: 50px 25px;
+#straightLine{
+border-style: solid;
+border-width: medium medium;
+border-radius: 50px 50px;
 }
+#roundedCorners{
+border-radius: 75px 50px;
+border-style: solid;
+border-color: coral;
+border-width: thick thick;
+}
+
 </style>
 <body>
 
 <div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
   <div class="w3-display-middle">
-    <h1 id = "roundedCorners" style = "background-color:darkred" class="w3-jumbo w3-animate-top">Scratch That</h1>
-    <hr class="w3-border-white" style="margin:auto;width:500px;">
-    <p id = "roundedCorners" style="background-color:darkred; color:white" class="w3-xlarge w3-center">Insert Coin Here</p>
+  <center>
+    <h1 id = "roundedCorners" style = "background-color:lightseagreen;" class="w3-jumbo w3-animate-top">Scratch That</h1>
+	<br>
+    <hr id = "straightLine" class="w3-border-white" style="margin:auto;width:500px;">
+    <p id = "roundedCorners" style="background-color:lightseagreen; color:white" class="w3-xlarge w3-center">Insert Coin Here</p>
+  </center>
   </div>
 </div>
 
