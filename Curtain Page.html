@@ -6,25 +6,14 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Permanent+Marker">
 
 <style>
-body,h1 {font-family: "Permanent Marker", sans-serif}
+a {text-decoration: none;}
+
 body, html {height: 100%}
 .bgimg {
   background-image: url('RecordStore1.jpg');
   min-height: 100%;
   background-position: center;
   background-size: cover;
-}
-
-#straightLine{
-border-style: solid;
-border-width: medium medium;
-border-radius: 50px 50px;
-}
-#roundedCorners{
-border-radius: 75px 50px;
-border-style: solid;
-border-color: coral;
-border-width: thick thick;
 }
 
 /* =========================== */
@@ -48,7 +37,7 @@ border-width: thick thick;
   font-family: "Clip";
   text-transform: uppercase;
   font-size: 6em;
-  color: #BBFFFF;
+  color: #00FFFF;
   text-shadow: 0 0 0.6rem #BBFFFF, 0 0 1.5rem #00FFFF,
     -0.2rem 0.1rem 1rem #00FFFF, 0.2rem 0.1rem 1rem #00FFFF,
     0 -0.5rem 2rem #BBFFFF, 0 0.5rem 3rem #BBFFFF;
@@ -60,7 +49,7 @@ border-width: thick thick;
   22%,
   36%,
   75% {
-    color: #BBFFFF;
+    color: #00FFFF;
     text-shadow: 0 0 0.6rem #BBFFFF, 0 0 1.5rem #00FFFF,
       -0.2rem 0.1rem 1rem #00FFFF, 0.2rem 0.1rem 1rem #00FFFF,
       0 -0.5rem 2rem #BBFFFF, 0 0.5rem 3rem #BBFFFF;
@@ -91,12 +80,13 @@ border-width: thick thick;
     text-shadow: none;
   }
   100% {
-    color: #BBFFFF;
+    color: #00FFFF;
     text-shadow: 0 0 0.6rem #BBFFFF, 0 0 1.5rem #00FFFF,
       -0.2rem 0.1rem 1rem #00FFFF, 0.2rem 0.1rem 1rem #00FFFF,
       0 -0.5rem 2rem #BBFFFF, 0 0.5rem 3rem #BBFFFF;
   }
 }
+
 
 @keyframes flicker {
   from {
@@ -237,7 +227,10 @@ border-width: thick thick;
 	  <br>
 	  <br>
 	  <br>
-	  <p class=" w3-xxlarge sign">CLICK HERE</p>  </div>
+	  <div class="w3-bottom w3-xxlarge sign">
+      <span class="fast-flicker"><br><br><a href="genre.html">MUSIC</a>&emsp;&emsp;&emsp;&emsp;</span>&emsp;<span class="flicker"><br><br><a href="photo.html">PHOTO</a></span>&emsp;&emsp;&emsp;&emsp;&emsp;<span class="fast-flicker"><br><br><a href="other.html">OTHER</a></span>
+	  </div>
+  </div>
 </div>
 
 </body>
